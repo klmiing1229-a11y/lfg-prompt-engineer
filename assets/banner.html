@@ -1,0 +1,37 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+*{margin:0;box-sizing:border-box}
+body{width:1280px;height:640px;background:#07070c;font-family:-apple-system,"SF Pro Display","Inter","Helvetica Neue",sans-serif;color:#f2f2f7;overflow:hidden;position:relative}
+.glow1{position:absolute;left:-160px;top:-120px;width:720px;height:720px;background:radial-gradient(circle,rgba(124,58,237,.38),transparent 65%)}
+.glow2{position:absolute;right:-140px;bottom:-200px;width:760px;height:760px;background:radial-gradient(circle,rgba(34,211,238,.26),transparent 65%)}
+.grid{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.045) 1px,transparent 1px);background-size:40px 40px;-webkit-mask-image:radial-gradient(ellipse at 50% 50%,#000 25%,transparent 78%)}
+.word{position:absolute;left:84px;top:150px}
+.tag{font-size:15px;letter-spacing:.28em;color:#a78bfa;text-transform:uppercase;font-family:"SF Mono",Menlo,monospace}
+h1{font-size:176px;font-weight:800;letter-spacing:-.06em;line-height:1;margin-top:10px;background:linear-gradient(100deg,#fff 20%,#c4b5fd 60%,#67e8f9);-webkit-background-clip:text;color:transparent}
+.sub{font-size:34px;color:#c9c9d6;margin-top:14px;font-weight:500;letter-spacing:-.01em}
+.sub b{color:#fff;font-weight:600}
+.pill{position:absolute;left:84px;bottom:64px;font-family:"SF Mono",Menlo,monospace;font-size:20px;color:#9ca3af;padding:12px 20px;border:1px solid rgba(255,255,255,.14);border-radius:12px;background:rgba(255,255,255,.04)}
+.pill span{color:#67e8f9}
+svg{position:absolute;right:0;top:0}
+</style></head><body>
+<style>.sub{font-size:29px}</style><div class="glow1"></div><div class="glow2"></div><div class="grid"></div>
+<svg width="640" height="640" viewBox="0 0 640 640">
+<defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#7c3aed"/><stop offset="1" stop-color="#22d3ee"/></linearGradient></defs>
+<g stroke="#a78bfa" stroke-width="2.2" fill="none" opacity=".7" stroke-linecap="round">
+<path d="M40 270 q20 -22 40 0 t40 0 t36 -6"/><path d="M50 310 q16 18 34 -4 t30 6 t40 -10"/><path d="M42 352 q24 -14 44 4 t28 -8"/></g>
+<text x="44" y="236" fill="#6b7280" font-family="Menlo,monospace" font-size="12" letter-spacing="2">ROUGH IDEA</text>
+<g stroke="url(#g)" stroke-width="2" fill="none"><path d="M180 312 H262"/><path d="M252 302 l12 10 -12 10"/></g>
+<g transform="translate(290,150)">
+<rect width="300" height="340" rx="18" fill="#10101a" stroke="rgba(255,255,255,.16)"/>
+<rect x="0" y="0" width="300" height="6" rx="3" fill="url(#g)"/>
+<text x="24" y="42" fill="#9ca3af" font-family="Menlo,monospace" font-size="13" letter-spacing="2">PROMPT DRAFT</text>
+<g font-family="Menlo,monospace" font-size="13" fill="#a78bfa">
+<text x="24" y="82">Role</text><text x="24" y="132">Task</text><text x="24" y="182">Context</text><text x="24" y="232">Output</text></g>
+<g fill="#2a2a3a"><rect x="24" y="92" width="230" height="9" rx="4.5"/><rect x="24" y="142" width="250" height="9" rx="4.5"/><rect x="24" y="192" width="200" height="9" rx="4.5"/><rect x="24" y="242" width="170" height="9" rx="4.5"/></g>
+<line x1="24" y1="270" x2="276" y2="270" stroke="rgba(255,255,255,.08)"/>
+<rect x="24" y="286" width="72" height="34" rx="9" fill="url(#g)"/><text x="60" y="308" text-anchor="middle" fill="#07070c" font-family="Menlo,monospace" font-size="14" font-weight="700">ok</text>
+<rect x="106" y="286" width="84" height="34" rx="9" fill="none" stroke="rgba(255,255,255,.18)"/><text x="148" y="308" text-anchor="middle" fill="#c9c9d6" font-family="Menlo,monospace" font-size="13">change</text>
+<text x="204" y="308" fill="#6b7280" font-family="Menlo,monospace" font-size="11">then run</text></g>
+</svg>
+<div class="word"><div class="tag">AI skill · any model</div><h1>lfg</h1><div class="sub">From <b>rough idea</b> to <b>approved prompt.</b></div></div>
+<div class="pill"><span>&gt;</span> lfg write a friendly welcome email</div>
+</body></html>
