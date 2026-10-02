@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/banner.png" alt="lfg: from rough idea to approved prompt" width="100%"></p>
+
 # LFG — Prompt Engineer On Call
 
 Turn a rough idea into a clear prompt, review it, then have your AI carry it out. Start a message with `lfg`:
