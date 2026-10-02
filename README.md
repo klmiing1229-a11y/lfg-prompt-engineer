@@ -8,7 +8,7 @@ Turn a rough idea into a clear prompt, review it, then have your AI carry it out
 lfg write a friendly welcome email for new customers
 ```
 
-The assistant drafts a prompt and pauses. Reply `ok` to run it, describe a change to revise it, or say `just the prompt` to copy it elsewhere.
+The assistant drafts a prompt and pauses. Reply `ok` to run it, describe a change to revise it, or say `just the prompt` to copy it elsewhere. See [`examples/welcome-email.md`](examples/welcome-email.md) for a full run.
 
 ## What is in this repo?
 
@@ -16,6 +16,8 @@ The assistant drafts a prompt and pauses. Reply `ok` to run it, describe a chang
 | --- | --- |
 | [`lfg/SKILL.md`](lfg/SKILL.md) | The complete skill from the original `.skill` package, written for Claude. |
 | [`PORTABLE.md`](PORTABLE.md) | A shorter, model-neutral version for custom or project instructions. |
+| [`examples/`](examples/) | A worked run: a four-word request, one revision, approval, and the finished email. |
+| [`assets/`](assets/) | The banner and its HTML source. |
 
 The full skill includes a prompt template, formatting rules, examples, and the review-and-approval workflow. Its Opus/Sonnet guidance is specific to Claude. Use the portable version if your AI does not offer those models.
 
